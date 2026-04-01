@@ -19,4 +19,4 @@ jobs:
           go-version: "1.26.0"
 
       - name: Running unit test suite.
-        run: go test ./...
+        run: go test ./... -v -cover
