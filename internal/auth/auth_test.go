@@ -21,7 +21,7 @@ func TestGetAuth(t *testing.T) {
 		},
 		{
 			name:     "normal key",
-			key:      "12341fkhjalfy29fy10fh12",
+			key:      "ApiKey 12341fkhjalfy29fy10fh12",
 			err:      nil,
 			expected: "12341fkhjalfy29fy10fh12",
 		},
